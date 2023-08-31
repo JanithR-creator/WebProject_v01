@@ -1,0 +1,61 @@
+.navbar{
+    background-color:rgb(243,243,243);
+}
+
+.navbar-icon{
+    height: 80px;
+    width: 100px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.collapse a:hover{
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu{
+    text-decoration:none;
+}
+
+.collapse .dropdown-menu a:hover{
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item{
+    color: black;
+}
+
+.navbar-icon{
+    margin: 0 6% 0 5%;
+}
+
+/* .navlogo{
+    float: left;
+}
+
+.menu{
+    float: left;
+} */
+
+.text-center{
+    background-color: rgb(35,35,35);
+    height: 16rem;
+}
+
+.text-center a {
+    font-size: 12px;
+}
+
+.text-center p {
+    font-size: 12px;
+}
+
+.footer-A{
+    height: 16rem;
+}

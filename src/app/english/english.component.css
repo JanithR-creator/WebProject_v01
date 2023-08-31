@@ -1,0 +1,63 @@
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color: white;
+    background-size: cover;
+    background-position:center;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.container-item0,.container-item1{
+    position: relative;
+    float: right;
+    /* padding-top: 60px;
+    padding-right: 10px; */
+}
+
+.carousel-item0{
+    background-image: url(src\assets\image\IMG-5248.JPG);
+}
+
+.carousel-item1{
+    background-image: url(src\assets\image\IMG-5247.JPG );
+}
+
+.carousel-item2{
+    background-image: url(src\assets\image\IMG-5254.JPG);
+}
+
+h4,h5,h1{
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: bold;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+p{
+    color: black;
+}
+
+.btn{
+    background-color: rgb(35,35,35);
+    color: white;
+    border-radius: 10px;
+}
+
+.btn a:active{
+    background-color:rgb(35,35,35);
+}
+
+.carousel-content{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: aliceblue;
+}

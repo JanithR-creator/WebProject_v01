@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            <div class="contact-A">
+                <div class="contact-A-left">
+                    <h4>Send Us A Message</h4>
+                    <p>Complete the form below and we'll respond to your enquiry within two business days.</p>
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <label for="inputAddress" class="lable">First name</label>
+                              <input type="text" class="form-control" placeholder="First name"
+                              name="fname" [(ngModel)]="fisrtname" required=""/>
+                            </div>
+                            <div class="col">
+                                <label for="inputAddress" class="lable">Last name</label>
+                              <input type="text" class="form-control" placeholder="Last name" [(ngModel)]="lastname"
+                              name="lname" required=""/>
+                            </div>
+                          </div>                        
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail4" class="lable">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="Email"
+                              [(ngModel)]="email">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPhonenumber" class="lable">Phone</label>
+                              <input type="text" class="form-control" id="inputPhonenumer4" name="cnt" placeholder="07********"
+                              [(ngModel)]="cnt">
+                            </div>
+                          </div>                       
+                          <div class="form-group col-md-4">
+                            <label for="inputState" class="lable">Gender</label>
+                            <select id="inputState" class="form-control select-component" name="gend">
+                                <option selected>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1" class="lable">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Write your message here.."></textarea>
+                              </div>
+                              <div class="col-auto">
+                                <button type="submit" class="btn mb-2" (click)="onSubmit()">Submit</button>
+                                <button type="reset" class="btn mb-2 btn-rst" >Reset</button>
+                              </div>
+                    </form>
+                </div>
+                <div class="contact-A-right">
+                        <h4>Working Shedual</h4>
+                        <div class="card border-dark mb-3" style="max-width: 18rem;">
+                            <div class="card-body text-dark">
+                              <h5 class="card-title">Nugegoda & Gampaha Branches</h5>
+                              <dl>
+                                <dt>Monday</dt>
+                                    <dd>closed</dd>
+                                <dt>Saturday & Sunday</dt>
+                                    <dd>8.30am-9.pm</dd>
+                                <dt>Other Days</dt>
+                                    <dd>8.30am-4.00pm</dd>
+                              </dl>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="card border-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-body text-dark">
+                          <h5 class="card-title">Matara Branch</h5>
+                          <dl>
+                            <dt>Wednsday</dt>
+                                <dd>closed</dd>
+                            <dt>Saturday & Sunday</dt>
+                                <dd>8.30am-9.pm</dd>
+                            <dt>Other Days</dt>
+                                <dd>8.30am-4.00pm</dd>
+                          </dl>
+                        </div>
+                      </div>
+            </div>
+    </body>
+</html>

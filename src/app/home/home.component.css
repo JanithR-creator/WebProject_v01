@@ -1,0 +1,88 @@
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color: white;
+    background-size: cover;
+    background-position:center;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.carousel-item0{
+    background-image: url(src\assets\image\IMG-5220.JPG);
+}
+
+.carousel-item1{
+    background-image: url(src\assets\image\IMG-5219.JPG);
+}
+
+.carousel-item2{
+    background-image: url(src\assets\image\IMG-5239.JPG);
+}
+
+.contentBh1{
+    margin: 20px;
+}
+
+.item-b{
+    height: 16rem;
+}
+
+.carousel-itemCL0{
+    background-image: url(src\assets\image\IMG-5243.JPG);
+}
+
+.carousel-itemCL1{
+    background-image: url(src\assets\image\IMG-5252.JPG);
+}
+
+.carousel-itemCL2{
+    background-image: url(src\assets\image\IMG-5221.JPG);
+}
+
+.carousel-itemCR0{
+    background-image: url(src\assets\image\IMG-5237.JPG);
+}
+
+.carousel-itemCR1{
+    background-image: url(src\assets\image\IMG-5241.JPG);
+}
+
+.carousel-itemCR2{
+    background-image: url(src\assets\image\IMG-5242.JPG);
+}
+
+h1,h4,h2 {
+    font-weight: bold;
+}
+
+.btn{
+    background-color: rgb(35,35,35);
+    color: white;
+    border-radius: 10px;
+}
+
+.btn a:active{
+    background-color:rgb(35,35,35);
+}
+
+.flex-container-b {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: DodgerBlue; */
+  }
+
+  .flex-content-b {
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 30px 10px 10px 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }

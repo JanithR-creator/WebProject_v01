@@ -1,0 +1,57 @@
+.navbar{
+    background-color:rgb(243,243,243);
+}
+
+.navbar-icon{
+    height: 80px;
+    width: 80px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.collapse a:hover{
+    background-color: black;
+    color: white;
+}
+
+.dropdown-menu{
+    text-decoration:none;
+}
+
+/* .dropdown-toggle :hover{
+    display: contents;
+}
+
+.dropdown-menu{
+    display: none;
+} */
+/* .dropdown-menu{
+    display: none;
+} */
+
+.dropdown-item{
+    color: black;
+}
+
+.dropdown-menu > a:hover{
+    background-color: rgb(35,35,35);
+    color: white;
+}
+
+.navbar-icon{
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+/* .navlogo{
+    float: left;
+}
+
+.menu{
+    float: left;
+} */
+
